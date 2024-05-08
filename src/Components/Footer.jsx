@@ -6,7 +6,7 @@ import SOCIALS from "../assets/socials";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center pt-16 pb-24 bg-gray-200">
+    <footer className="flex justify-center pt-16 pb-24 bg-gray-200 mt-7">
       <div className="flex flex-col w-full gap-14 p-5 ">
         <div className="flex flex-col items-start justify-center  gap-[10%] md:flex-row" >
           <Link to="/" className="font-bold text-xl mb-10">Shoppee</Link>

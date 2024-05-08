@@ -51,11 +51,11 @@ const Header = () => {
           </NavLink>
           {/* <NavLink to="login" className="bg-blue-900 text-white font-bold rounded-lg p-2 flex items-center"><img src={logout} width="25" className="" alt="" />Logout</NavLink> */}
           <NavLink
-            to="login"
+            to="Signup"
             className="bg-gray-800 text-white font-bold rounded-lg p-1 px-3 flex items-center"
           >
             <img src={user} width="20" className="" alt="" />
-            Login
+            Sign Up
           </NavLink>
         </div>
       </div>

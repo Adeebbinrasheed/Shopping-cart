@@ -7,11 +7,11 @@ import Cart from "./Pages/Cart";
 import Login from "./Pages/Login";
 import Product from "./Pages/Product";
 import Footer from "./Components/Footer";
-
 import bannermens from "../src/assets/bannermens.png";
 import bannerwomens from "../src/assets/bannerwomens.png";
 import bannerkids from "../src/assets/bannerkids.png";
 import ShopContextProvider from "./Context/ShopContext";
+import SignUp from "./Pages/SignUp";
 
 const App = () => {
   return (
@@ -36,6 +36,7 @@ const App = () => {
             <Route path=":productId" element={<Product />} />
           </Route>
           <Route path="/cart-page" element={<Cart />} />
+          <Route path="/Signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />

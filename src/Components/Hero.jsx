@@ -2,6 +2,9 @@ import React from "react";
 import { MdStar, MdOutlineLocalOffer } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
+import ReactWhatsapp from "react-whatsapp"
+import whatsapp from "../assets/whatsapp.png"
+
 
 const Hero = () => {
   return (
@@ -37,6 +40,7 @@ const Hero = () => {
             </NavLink>
           </div>
         </div>
+        <ReactWhatsapp number="+91 7034407807"  message="Hii,Can i get more info??" className="fixed bottom-32 right-8 z-10 animate-pulse"><img src={whatsapp} alt="" className="w-10 h-10 md:w-14 md:h-14"/></ReactWhatsapp>
       </div>
       <marquee
         bgcolor="gray"
@@ -56,6 +60,8 @@ const Hero = () => {
           
         </div>
       </marquee>
+
+      
       
     </>
   );
